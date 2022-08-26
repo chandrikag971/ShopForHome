@@ -1,0 +1,61 @@
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  .space_cart{
+      margin:0px 15px  !important
+  }
+  
+  .bg-color-categories{
+    background-color: var(--orange);
+    color:var(--ivory);
+    
+  }
+
+  .btn-active-categories{
+    font-weight: bold;
+    font-size:1.4rem;
+    font-family: var(--roboto);
+    --bs-navbar-active-color:rgb(92, 62, 6) !important;
+    --bs-navbar-active: #fda172 !important
+    
+  }
+  .bg-color-categories a{
+    color:var(--ivory);
+  }
+  .bg-color h1{
+    padding:10px 10px 0px;
+    
+    color:var(--ivory);
+  }
+  .bg-color-categories a:hover{
+    background-color:var(--ivory) ;
+    border-radius: 5px;
+  }
+  
+  .logo-title{
+    font-family: var(--righteous);
+  }
+  
+  #categorySupportedContent > ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  @media (max-width:991px){
+    #categorySupportedContent > ul{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    #categorySupportedContent.show > ul{
+      display: flex;
+      flex-direction: column;
+    }
+  }

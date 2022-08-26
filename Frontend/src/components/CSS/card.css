@@ -1,0 +1,100 @@
+.productName
+{
+font-family: var(--roboto);
+text-transform: capitalize;
+}
+.companyName{
+    opacity: 0.5;
+}
+.priceValue{
+    color:green;
+    font-family:var(--roboto);
+    font-weight: 800;    
+}
+.tagsLabel{
+    opacity: 0.8;
+
+}
+
+.quantity-div{
+    display: flex !important;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.quantity-div >*{
+    margin: 5px;
+    border-radius: 50px;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: bold;
+    width: 35px;
+    text-align: center;
+
+}
+
+.card-view{
+ /* display: flex !important;
+ flex-direction: column !important;
+ justify-content: center !important; */
+    box-shadow: 2px 2px 5px rgb(159, 156, 156);
+}
+.card-view:hover{
+ /* display: flex !important;
+ flex-direction: column !important;
+ justify-content: center !important; */
+    box-shadow: 2px 2px 5px #997ce7;
+}
+
+.card-view .btn{
+    margin: 5px 5px;
+}
+
+
+@media (max-width:1250px) {
+    .galleryView .card{
+        width: 15rem !important;
+    }
+}
+@media (max-width:1050px) {
+    .galleryView .card{
+        width: fit-content !important;
+    }
+}
+
+@media (max-width:576px){
+    .galleryView .card-title{
+        font-size: 1.5ch !important;
+    }
+    .galleryView .card-body{
+        font-size: 2ch !important;
+    }
+    .galleryView .quantity-div{
+        margin: 0;
+        padding: 0; 
+    }
+    .galleryView .priceValue{
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (max-width:480px){
+    .card-view .btn{
+        margin: 0px 5px ;
+    }
+}
+
+@media (max-width:425px){
+    .galleryView .card-footer .btn{
+        margin:10px;
+    }
+}
+
+@media (max-width:320px){
+    .card-view .btn{
+        margin: 0px 2px;
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "we have created a main API gateway at port 9000\r for prefix '/admin' the gatewaywill direct to admin work\r for prefix '/users' the gatewaywill direct to users work",
+  "main": "index.js",
+  "scripts": {
+    "dev-both": "concurrently \"nodemon authentication\\index.js \" \"nodemon cart-crud\\index.js \" \" nodemon coupons-crud\\index.js\" \"  nodemon products-crud\\index.js \"   \"  nodemon user-crud\\index.js \" \"  nodemon wishlist-crud\\index.js\" \"  nodemon api-gateway\\adminGateway\\index.js \"    \"  nodemon api-gateway\\appGateway\\index.js \" \"  nodemon api-gateway\\userGateway\\index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.2.2",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "express-fileupload": "^1.4.0",
+    "fast-csv": "^4.3.6",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

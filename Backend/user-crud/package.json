@@ -1,0 +1,30 @@
+{
+  "name": "admin-crud-user",
+  "version": "1.0.0",
+  "description": "perform CRUD operation on User by admin",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cord": "^1.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.2",
+    "nodemon": "^2.0.19",
+    "swagger-jsdoc": "^6.2.1",
+    "swagger-ui": "^4.12.0",
+    "swagger-ui-express": "^4.4.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^2.0.6"
+  }
+}

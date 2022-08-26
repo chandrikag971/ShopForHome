@@ -1,0 +1,16 @@
+.textHeadStyle{
+    font-family: var(--playfair);
+}
+
+.space{
+    margin:15px !important
+}
+.bg-btn{
+    background-color: var(--orange);
+    border: none !important;
+
+}
+.bg-btn:hover{
+    background-color: var(--orange);
+    box-shadow: inset 2px 2px 5px orange,inset -2px -2px 5px orangered;
+}

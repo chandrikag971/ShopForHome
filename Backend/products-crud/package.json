@@ -1,0 +1,26 @@
+{
+  "name": "admin-crud-user",
+  "version": "1.0.0",
+  "description": "perform CRUD operation on User by admin",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "convert-csv-to-json": "^1.3.3",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "fast-csv": "^4.3.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.2",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7"
+  }
+}

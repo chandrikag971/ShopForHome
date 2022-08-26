@@ -1,0 +1,18 @@
+to create first id in postman send the following data in the request body using the post request to the url
+http://localhost:9000/user/auth/register
+and add the detials mentioned below
+
+{
+ 
+"username":"admin1"
+"first_name":"f_name"
+"last_name":"l_name"
+"email":"admin@mail.com"
+"phone":"09876543215"
+"password":"password"
+"confirmPassword":"password"
+"role":"admin"
+
+}
+
+after sending the above json form data the id will be created for admin under which other admin or user ids can be made and user id can be made from UI sign up page also
